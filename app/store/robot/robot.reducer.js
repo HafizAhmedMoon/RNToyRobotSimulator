@@ -136,16 +136,12 @@ const DIRECTIONS = [
 
 function getLeftDirection(direction) {
   const index = DIRECTIONS.indexOf(direction);
-  if (index !== -1) {
-    return DIRECTIONS[index === 0 ? DIRECTIONS.length - 1 : index - 1];
-  }
+  return DIRECTIONS[index === 0 ? DIRECTIONS.length - 1 : index - 1];
 }
 
 function getRightDirection(direction) {
   const index = DIRECTIONS.indexOf(direction);
-  if (index !== -1) {
-    return DIRECTIONS[index === DIRECTIONS.length - 1 ? 0 : index + 1];
-  }
+  return DIRECTIONS[index === DIRECTIONS.length - 1 ? 0 : index + 1];
 }
 
 const DIRECTION_MAP = {

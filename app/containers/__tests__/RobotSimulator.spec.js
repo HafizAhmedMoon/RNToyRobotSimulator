@@ -1,5 +1,4 @@
 import React from 'react';
-import 'react-native';
 import { shallow } from 'enzyme';
 import configureStore from 'redux-mock-store';
 import RobotSimulator from '../RobotSimulator';
