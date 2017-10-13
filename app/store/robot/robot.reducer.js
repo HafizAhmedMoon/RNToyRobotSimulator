@@ -139,7 +139,6 @@ function getLeftDirection(direction) {
   if (index !== -1) {
     return DIRECTIONS[index === 0 ? DIRECTIONS.length - 1 : index - 1];
   }
-  return index;
 }
 
 function getRightDirection(direction) {
@@ -147,7 +146,6 @@ function getRightDirection(direction) {
   if (index !== -1) {
     return DIRECTIONS[index === DIRECTIONS.length - 1 ? 0 : index + 1];
   }
-  return index;
 }
 
 const DIRECTION_MAP = {
