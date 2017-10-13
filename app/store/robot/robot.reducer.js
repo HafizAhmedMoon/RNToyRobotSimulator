@@ -145,23 +145,23 @@ function getLeftDirection(direction) {
 function getRightDirection(direction) {
   const index = DIRECTIONS.indexOf(direction);
   if (index !== -1) {
-    return DIRECTIONS[index === length - 1 ? 0 : index + 1];
+    return DIRECTIONS[index === DIRECTIONS.length - 1 ? 0 : index + 1];
   }
   return index;
 }
 
 const DIRECTION_MAP = {
-  [ROBOT_DIRECTION.NORTH]: {x: -1},
-  [ROBOT_DIRECTION.SOUTH]: {x: 1},
-  [ROBOT_DIRECTION.EAST]: {y: 1},
-  [ROBOT_DIRECTION.WEST]: {y: -1},
+  [ROBOT_DIRECTION.NORTH]: {y: 1},
+  [ROBOT_DIRECTION.SOUTH]: {y: -1},
+  [ROBOT_DIRECTION.EAST]: {x: 1},
+  [ROBOT_DIRECTION.WEST]: {x: -1},
 };
 
-function getNextPositionDirection(x, y, direction) {
-  const {_x = 0, _y = 0} = DIRECTION_MAP[direction];
+function getNextPositionDirection(_x, _y, direction) {
+  const {x = 0, y = 0} = DIRECTION_MAP[direction];
   return {
-    x: x + _x,
-    y: y + _y,
+    x: _x + x,
+    y: _y + y,
   }
 }
 
