@@ -1,13 +1,22 @@
 import React from 'react';
 import 'react-native';
 import { shallow } from 'enzyme';
-import { RobotSimulator } from '../RobotSimulator';
+import configureStore from 'redux-mock-store';
+import RobotSimulator from '../RobotSimulator';
+
+const mockStore = configureStore();
+
+const initialState = {
+  robot: {},
+};
 
 describe("App Component", () => {
-  it('renders correctly', () => {
+  it('renders as expected', () => {
     const tree = shallow(
-      <RobotSimulator/>
+      <RobotSimulator/>, {
+        context: {store: mockStore(initialState)}
+      }
     );
-    expect(tree).toMatchSnapshot();
+    expect(tree.dive()).toMatchSnapshot();
   });
 });
