@@ -1,5 +1,6 @@
 ## React Native: TOY ROBOT SIMULATOR
-
+[![Build Status](https://travis-ci.org/HafizAhmedMoon/RNToyRobotSimulator.svg?branch=master)](https://travis-ci.org/HafizAhmedMoon/RNToyRobotSimulator)
+[![Coverage Status](https://coveralls.io/repos/github/HafizAhmedMoon/RNToyRobotSimulator/badge.svg?branch=master)](https://coveralls.io/github/HafizAhmedMoon/RNToyRobotSimulator?branch=master)
 ### Description:
 
 * The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units.
