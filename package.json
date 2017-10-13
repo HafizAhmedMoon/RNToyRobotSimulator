@@ -2,8 +2,8 @@
 	"name": "ToyRobotSimulator",
 	"version": "0.0.1",
 	"license": "Unlicense",
-  "main": "index.js",
-  "author": "Ahmed Raza <hafizahmedmoon@gmail.com>",
+	"main": "index.js",
+	"author": "Ahmed Raza <hafizahmedmoon@gmail.com>",
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"android": "node node_modules/react-native/local-cli/cli.js run-android",
