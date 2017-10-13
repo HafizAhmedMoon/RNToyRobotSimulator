@@ -13,6 +13,7 @@ import {
   ROBOT_MSG_TURN_LEFT,
   ROBOT_MSG_TURN_RIGHT,
   ROBOT_PLACE,
+  ROBOT_REPORT,
   ROBOT_RIGHT
 } from "./robot.constants";
 
@@ -102,6 +103,19 @@ export default function BuddiesReducer(state = initialState, action) {
             output: ROBOT_MSG_MOVE
           };
         }
+      }
+    case ROBOT_REPORT:
+      if (!state.isPlaced) {
+        return {
+          ...state,
+          output: ROBOT_MSG_NOT_PLACED
+        }
+      } else {
+        const {x, y, direction} = state;
+        return {
+          ...state,
+          output: `Robot position at ${x} rows, ${y} cols and facing ${direction} direction`
+        };
       }
     case ROBOT_INVALID:
       return {
