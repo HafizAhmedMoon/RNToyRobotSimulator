@@ -1,5 +1,7 @@
 import { combineReducers } from "redux";
 
-const rootReducer = combineReducers({});
+import robot from "./robot/robot.reducer"
+
+const rootReducer = combineReducers({robot});
 
 export default rootReducer;
