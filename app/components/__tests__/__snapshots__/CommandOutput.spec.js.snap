@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommandOutput Component renders as expected 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "stretch",
+      "paddingHorizontal": 10,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+  />
+</View>
+`;
