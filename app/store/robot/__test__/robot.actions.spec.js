@@ -16,8 +16,19 @@ describe('Robot Actions', () => {
     });
   });
 
-  it('robotPlace should create ROBOT_PLACE action with empty args', () => {
+  it('robotPlace should create ROBOT_PLACE action with no args', () => {
     expect(robotPlace()).toEqual({
+      type: ROBOT_PLACE,
+      payload: {
+        x: -1,
+        y: -1,
+        direction: ''
+      }
+    });
+  });
+
+  it('robotPlace should create ROBOT_PLACE action with empty args', () => {
+    expect(robotPlace([])).toEqual({
       type: ROBOT_PLACE,
       payload: {
         x: -1,
