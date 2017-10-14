@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board Component renders as expected 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "#aaa",
+      "borderWidth": 1,
+    }
+  }
+>
+  <View
+    key="4"
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      key="0"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="1"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="2"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="3"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="4"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+  </View>
+  <View
+    key="3"
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      key="0"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="1"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="2"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="3"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="4"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+  </View>
+  <View
+    key="2"
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      key="0"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="1"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="2"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="3"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="4"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          Object {
+            "backgroundColor": "blue",
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    key="1"
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      key="0"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="1"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="2"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="3"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="4"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+  </View>
+  <View
+    key="0"
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      key="0"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="1"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="2"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="3"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+    <View
+      key="4"
+      style={
+        Array [
+          Object {
+            "borderColor": "#aaa",
+            "borderWidth": 1,
+            "height": 50,
+            "width": 50,
+          },
+          false,
+        ]
+      }
+    />
+  </View>
+</View>
+`;
