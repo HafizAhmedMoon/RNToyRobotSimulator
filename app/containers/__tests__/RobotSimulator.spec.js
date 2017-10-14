@@ -8,11 +8,15 @@ const mockStore = configureStore();
 
 const initialState = {
   robot: {
+    rows: 5,
+    cols: 5,
+    x: -1,
+    y: -1,
     output: ''
   },
 };
 
-describe("App Component", () => {
+describe("RobotSimulator Component", () => {
 
   it('renders as expected', () => {
     const wrapper = shallow(
