@@ -6,6 +6,7 @@ import { CommandOutput } from "../components/CommandOutput";
 import { robotInvalid, robotLeft, robotMove, robotPlace, robotReport, robotRight } from "../store/robot/robot.actions";
 import { mapDispatchToProps } from "../utils";
 import { Command } from "../model/Command";
+import { Board } from "../components/Board";
 
 class RobotSimulator extends React.Component<{}> {
 
@@ -27,15 +28,16 @@ class RobotSimulator extends React.Component<{}> {
   }
 
   render() {
-    const {robot} = this.props;
+    const {rows, cols, x, y, output} = this.props.robot;
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
           <Text>Welcome to React Native</Text>
           <Text>Toy Robot Simulator</Text>
         </Text>
+        <Board {...{rows, cols, x, y}}/>
         <CommandInput onCommandReceive={this.onCommandReceive.bind(this)}/>
-        <CommandOutput output={robot.output}/>
+        <CommandOutput output={output}/>
       </View>
     );
   }
