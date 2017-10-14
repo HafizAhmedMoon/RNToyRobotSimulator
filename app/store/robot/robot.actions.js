@@ -1,8 +1,8 @@
 import { ROBOT_INVALID, ROBOT_LEFT, ROBOT_MOVE, ROBOT_PLACE, ROBOT_REPORT, ROBOT_RIGHT } from "./robot.constants";
 
-export function robotPlace([x = -1, y = -1, direction = ''] = []) {
+export function robotPlace([x = -1, y = -1, direction = ''] = [-1, -1, '']) {
   x = parseInt(x, 10);
-  y = parseInt(x, 10);
+  y = parseInt(y, 10);
   return {
     type: ROBOT_PLACE,
     payload: {x, y, direction}
