@@ -145,10 +145,10 @@ function getRightDirection(direction) {
 }
 
 const DIRECTION_MAP = {
-  [ROBOT_DIRECTION.NORTH]: {y: 1},
-  [ROBOT_DIRECTION.SOUTH]: {y: -1},
-  [ROBOT_DIRECTION.EAST]: {x: 1},
-  [ROBOT_DIRECTION.WEST]: {x: -1},
+  [ROBOT_DIRECTION.NORTH]: {x: 1},
+  [ROBOT_DIRECTION.SOUTH]: {x: -1},
+  [ROBOT_DIRECTION.EAST]: {y: 1},
+  [ROBOT_DIRECTION.WEST]: {y: -1},
 };
 
 function getNextPositionDirection(_x, _y, direction) {
@@ -161,7 +161,7 @@ function getNextPositionDirection(_x, _y, direction) {
 
 function validatePosition({x, y}, rows, cols) {
   return (
-    x > -1 && x <= rows &&
-    y > -1 && y <= cols
+    x > -1 && x < rows &&
+    y > -1 && y < cols
   );
 }

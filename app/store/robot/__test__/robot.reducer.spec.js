@@ -278,7 +278,7 @@ describe('Robot Reducer', () => {
         type: ROBOT_MOVE
       })).toEqual({
         ...state,
-        y: 1,
+        x: 1,
         output: ROBOT_MSG_MOVE
       });
     });
@@ -296,7 +296,7 @@ describe('Robot Reducer', () => {
         type: ROBOT_MOVE
       })).toEqual({
         ...state,
-        x: 1,
+        y: 1,
         output: ROBOT_MSG_MOVE
       });
     });
@@ -314,7 +314,7 @@ describe('Robot Reducer', () => {
         type: ROBOT_MOVE
       })).toEqual({
         ...state,
-        x: 0,
+        y: 0,
         output: ROBOT_MSG_MOVE_IGNORE
       });
     });
