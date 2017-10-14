@@ -31,6 +31,7 @@ export class CommandInput extends React.Component {
           onSubmitEditing={this.onSubmit.bind(this)}
           placeholder="Input Command"
           keyboardType="default"
+          autoCapitalize="characters"
           returnKeyType="done"
           style={styles.input}
           onChangeText={command => this.setState({command})}

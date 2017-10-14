@@ -10,6 +10,7 @@ exports[`CommandInput Component renders as expected 1`] = `
   }
 >
   <TextInput
+    autoCapitalize="characters"
     disableFullscreenUI={true}
     keyboardType="default"
     onChangeText={[Function]}
