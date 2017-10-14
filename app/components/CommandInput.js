@@ -16,6 +16,7 @@ export class CommandInput extends React.Component {
   onSubmit() {
     const {onCommandReceive} = this.props;
     const {command} = this.state;
+    if (!command) return;
     onCommandReceive(Command.parse(command));
 
     this.setState({command: ''});
