@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommandInput Component renders as expected 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "stretch",
+      "paddingHorizontal": 10,
+    }
+  }
+>
+  <TextInput
+    disableFullscreenUI={true}
+    keyboardType="default"
+    onChangeText={[Function]}
+    onSubmitEditing={[Function]}
+    placeholder="Input Command"
+    returnKeyType="done"
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "#ddd",
+        "borderWidth": 0,
+        "paddingBottom": 0,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
