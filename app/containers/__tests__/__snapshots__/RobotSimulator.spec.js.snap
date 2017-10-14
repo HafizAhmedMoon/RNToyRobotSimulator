@@ -41,5 +41,11 @@ exports[`App Component renders as expected 1`] = `
       Toy Robot Simulator
     </Text>
   </Text>
+  <CommandInput
+    onCommandReceive={[Function]}
+  />
+  <CommandOutput
+    output=""
+  />
 </View>
 `;
