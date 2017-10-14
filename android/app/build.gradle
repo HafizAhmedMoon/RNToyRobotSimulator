@@ -115,10 +115,21 @@ android {
             include "armeabi-v7a", "x86"
         }
     }
+    signingConfigs {
+        release {
+            if (project.hasProperty('TRS_RELEASE_STORE_FILE')) {
+                storeFile file(TRS_RELEASE_STORE_FILE)
+                storePassword TRS_RELEASE_STORE_PASSWORD
+                keyAlias TRS_RELEASE_KEY_ALIAS
+                keyPassword TRS_RELEASE_KEY_PASSWORD
+            }
+        }
+    }
     buildTypes {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release
